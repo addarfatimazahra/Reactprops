@@ -18,13 +18,6 @@ const Player = ({ name, team, nationality, jerseyNumber, age, image }) => {
   );
 };
 
-Player.defaultProps = {
-  name: "Inconnu",
-  team: "Inconnu",
-  nationality: "Inconnu",
-  jerseyNumber: 0,
-  age: 0,
-  image: "https://via.placeholder.com/150"
-};
+
 
 export default Player;
